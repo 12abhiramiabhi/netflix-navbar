@@ -1,9 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-image: url("https://image.tmdb.org/t/p/original/lsN1wAbqCvUPKEhkEI9pQSSiTjU.jpg");
     background-size: cover;
-    color: rgba(0, 0, 0, 0.8);
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+body::before{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
 }
 
-.img {
-    font-size: 20px;
+.img{
+     height: 70px;
+     width: 160px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+nav::before{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.logo img{
+width: 128px;
+height: 107px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list li{
+    margin: 0 0.5rem;
+    
 }

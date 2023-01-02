@@ -2,9 +2,10 @@ import React from 'react'
 
 function NavBar() {
     return (
+        <nav>
         <div>
             <div className='logo'>
-                {/* <img className='img' src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" alt="" /> */}
+         <img className='img' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" />
             </div>
             <div className='black'>
                 <div className='red'>
@@ -20,6 +21,7 @@ function NavBar() {
 
             </div>
         </div>
+    </nav>
     )
 }
 export default NavBar
