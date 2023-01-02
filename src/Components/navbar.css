@@ -1,0 +1,9 @@
+body {
+    background-image: url("https://image.tmdb.org/t/p/original/lsN1wAbqCvUPKEhkEI9pQSSiTjU.jpg");
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.img {
+    font-size: 20px;
+}
