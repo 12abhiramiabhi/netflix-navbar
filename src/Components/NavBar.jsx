@@ -5,7 +5,8 @@ function NavBar() {
         <div>
             <nav>
             <div className='logo'>
-         <img className='img' src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" />
+         {/* <img  src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" /> */}
+         <img className='img' src="https://www.freepnglogos.com/uploads/netflix-tv-logo-png-9.png" alt="" />
             </div>
             <div className='black'>
                 <div className='red'>
