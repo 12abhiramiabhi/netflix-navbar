@@ -12,10 +12,10 @@ function NavBar() {
                 <div className='red'>
                     <div className='white'>
                         <div className='list'>
-                            <a href="#home"><li>Home</li></a>
-                            <a href="#series"><li>series</li></a>
-                            <a href="#movies"><li>movies</li></a>
-                            <a href="#new and popular"><li>New and popular</li></a>
+                            <li>Home</li>
+                            <li>series</li>
+                         <li>movies</li>
+                        <li>New and popular</li>
                         </div>
                     </div>
                 </div>
