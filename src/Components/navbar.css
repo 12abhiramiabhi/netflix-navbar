@@ -6,10 +6,10 @@
 body {
     background-image: url("https://image.tmdb.org/t/p/original/lsN1wAbqCvUPKEhkEI9pQSSiTjU.jpg");
     background-size: cover;
-    background-position: center;
-    position: relative;
-    width: 100%;
-    height: 100vh;
+    /* background-position: center; */
+    /* position: relative; */
+    /* width: 100%; */
+    /* height: 100vh; */
 }
 body::before{
     content: "";
@@ -56,4 +56,7 @@ height: 107px;
 .list li{
     margin: 0 0.5rem;
     
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
 }
