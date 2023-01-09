@@ -67,13 +67,16 @@ nav::before {
 
     font-size: 1.2rem;
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
+
+ 
 }
 
-.logo3 {
+.logo3{
+    
     display: flex;
-    /* justify-content: space-evenly; */
-    margin-left: 800px;
+    margin-left: 860px;
+    justify-content: space-around;
 }
 
 .content {
@@ -119,7 +122,7 @@ nav::before {
 }
 
 .h1 {
-    color: antiquewhite;
+    color: white;
     padding: 20px;
 }
 

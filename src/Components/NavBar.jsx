@@ -1,6 +1,7 @@
 import React from 'react'
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import SearchIcon from '@mui/icons-material/Search';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function NavBar() {
     return (
@@ -18,12 +19,13 @@ function NavBar() {
                                 <li>series</li>
                                 <li>movies</li>
                                 <li>New and popular</li>
+                            </div>
                                 <div className='logo3'>
-                                    <img className='img3' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?20201013161117" alt="" />
                                     <NotificationsActiveIcon />
                                     <SearchIcon />
+                                    <img className='img3' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?20201013161117" alt="" />
+                                    <ArrowDropDownIcon />
                                 </div>
-                            </div>
                         </div>
                     </div>
 
