@@ -1,31 +1,31 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
+import axios from 'axios';
+
 
 function Paragraph() {
+    const imageBackUrl = "https://image.tmdb.org/t/p/original"
+    const [movie, setmovie] = useState({})
+
     const GetmovieFromApi = async () => {
-        console.log("function called");
+        let response = await axios.get("https://api.themoviedb.org/3/trending/all/day?api_key=c223e689d61ced6b72f6c9f6374cd64b")
+        console.log(response.data.results[0]);
+        setmovie(response.data.results[9])
     }
     useEffect(() => {
         GetmovieFromApi()
+
     }, [])
 
     return (
         <div>
-            <div className='content'>
-                <img src="" alt="" />
-                {/* <h4 className='banner'>
-                    <span>2022</span>
-                    <span><i>12+</i></span>
-                    <span><i>1 hr 55min</i></span>
-                    <span><i>action</i></span>
-                </h4> */}
-                <h1 className='h1'>Glass onion: A  knives out Mystery</h1>
-                <h1 className='h2'>From 2022-11-23</h1>
-                <p className='para'>
-                    world-famous detective benoit balnc heads to Greece to peel back the layers
-                    of a my surrounding a teach billionarie and his eclecti crew of friends.
+            <div className='content' style={{ background: `url('${imageBackUrl}${movie.backdrop_path}')` }}>
 
+                <h1 className='h1'>{movie.original_title}</h1>
+                <h1 className='h2'>{movie.release_date}</h1>
+                <p className='para'>
+                    {movie.overview}
                 </p>
                 <button className='btn'><PlayArrowIcon />play</button>
                 <button className='btn1'><AddIcon />Add to playlist</button>
