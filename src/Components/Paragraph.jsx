@@ -11,7 +11,7 @@ function Paragraph() {
     const GetmovieFromApi = async () => {
         let response = await axios.get("https://api.themoviedb.org/3/trending/all/day?api_key=c223e689d61ced6b72f6c9f6374cd64b")
         console.log(response.data.results[0]);
-        setmovie(response.data.results[9])
+        setmovie(response.data.results[1])
     }
     useEffect(() => {
         GetmovieFromApi()

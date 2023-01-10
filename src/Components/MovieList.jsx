@@ -10,27 +10,47 @@ function MovieList() {
             </div>
             <div className='cards-container'>
                 <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
-                    <div className="icon-group"><SkipNextIcon /> <AddIcon /></div>
+                    <div className='bottom-text'>
+                        <h1 className='title'>cards</h1>
+                        <div className="icon-group">
+                        <SkipNextIcon /> <AddIcon />
+                        </div>
+                    </div>
                 </div>
                 <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
+                    <div className='bottom-text'>
+                        <h1 className='title'>cards</h1>
+                        <div className="icon-group">
+                        <SkipNextIcon /> <AddIcon />
+                        </div>
+                    </div>
                 </div>
                 <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
+                    <div className='bottom-text'>
+                        <h1 className='title'>cards</h1>
+                        <div className="icon-group">
+                        <SkipNextIcon /> <AddIcon />
+                        </div>
+                    </div>
                 </div>
                 <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
+                    <div className='bottom-text'>
+                        <h1 className='title'>cards</h1>
+                        <div className="icon-group">
+                        <SkipNextIcon /> <AddIcon />
+                        </div>
+                    </div>
                 </div>
                 <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
+                    <div className='bottom-text'>
+                        <h1 className='title'>cards</h1>
+                        <div className="icon-group">
+                        <SkipNextIcon /> <AddIcon />
+                        </div>
+                    </div>
                 </div>
-                <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
-                </div>
-                <div className='card1'>
-                    <h1 className='title'>card <SkipNextIcon /> <AddIcon /></h1>
-                </div>
+               
+                
 
             </div>
         </div>
