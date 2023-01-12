@@ -1,4 +1,5 @@
 import React from 'react'
+import { actionURL, crimeURL, dramaURL, musicURL, trandingURL } from './Constants'
 import MovieList from './MovieList'
 import NavBar from './NavBar'
 import "./navbar.css"
@@ -9,7 +10,11 @@ function Home() {
         <div>
             <NavBar />
             <Paragraph />
-            <MovieList />
+            <MovieList categary="netflix originl" categaryurl={trandingURL} />
+            <MovieList categary="action movie" categaryurl={actionURL} />
+            <MovieList categary="drama" categaryurl={dramaURL} />
+            <MovieList categary="crime" categaryurl={crimeURL} />
+            <MovieList categary="music" categaryurl={musicURL} />
         </div>
 
     )
