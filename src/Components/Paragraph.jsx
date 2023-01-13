@@ -12,7 +12,7 @@ function Paragraph() {
     const GetmovieFromApi = async () => {
         let response = await axios.get(trandingURL)
         console.log(response.data.results[0]);
-        setmovie(response.data.results[4])
+        setmovie(response.data.results[9])
     }
     useEffect(() => {
         GetmovieFromApi()
@@ -21,7 +21,7 @@ function Paragraph() {
 
     return (
         <div>
-            <div className='content' style={{ background: `url('${imageBackUrl}${movie.backdrop_path}')` }}>
+            <div className='content' style={{ background: `url('${imageBackUrl}${movie.backdrop_path}')`, backgroundSize: "cover" }}>
 
                 <h1 className='h1'>{movie.original_title}</h1>
                 <h1 className='h2'>{movie.release_date}</h1>
