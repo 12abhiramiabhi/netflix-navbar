@@ -1,0 +1,124 @@
+body {
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/ac9aedf1-a687-4c5d-965c-2fc3eac84aea/ed2f162a-b9ef-43fd-8042-84978039a3ba/IN-en-20221206-popsignuptwoweeks-perspective_alpha_website_medium.jpg")no-repeat;
+    background-size: cover;
+
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 570px;
+    width: 400px;
+    border: none;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    /* background: url("https://cordcutting.com/wp-content/uploads/2015/06/netflix-logo.png")no-repeat;
+    background-size: 210px; */
+}
+
+.title {
+    text-align: center;
+    color: aliceblue;
+    margin-right: 150PX;
+}
+
+.btn {
+    background-color: #e50914;
+    color: burlywood;
+    border: none;
+    /* padding: 15px; */
+    margin: 20PX;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.btn {
+    color: aliceblue;
+    width: 260px;
+    /* padding: 15px; */
+    border: none;
+    margin: 15px;
+}
+
+.inputt {
+    width: 216px;
+    padding: 15px;
+    border: none;
+    margin: 14px;
+    background-color: rgb(90, 82, 82);
+
+}
+
+.inputt1 {
+    width: 217px;
+    padding: 15px;
+    border: none;
+    margin: 13px;
+    background-color: rgb(90, 82, 82);
+    border: 0;
+
+
+}
+
+.mid-session {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.para {
+    color: rgb(117, 119, 119);
+    margin: 12px;
+    font-size: 15px;
+}
+
+.para2 {
+    color: rgb(117, 119, 119);
+    margin: 12px;
+    font-size: 18px;
+}
+
+.a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.a1 {
+    color: rgb(41, 41, 209);
+    text-decoration: none;
+}
+
+.para3 {
+    color: rgb(117, 119, 119);
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin: 30px;
+    margin-right: 230px;
+}
+
+
+
+.img {
+    font-size: 15px;
+}
