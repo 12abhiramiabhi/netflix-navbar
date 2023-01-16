@@ -19,9 +19,9 @@ function MoviePage() {
             <div className='content3'>
                 <h1 className='h1'>{location.state.original_title}</h1>
                 <h1 className='h2'>{location.state.first_air_date}</h1>
-                <p className='para'>{location.state.overview}</p>
+                <p className='movie-para'>{location.state.overview}</p>
                 <div className='btn6'>
-                    <button className='btn'><PlayArrowIcon />play</button>
+                    <button className='play-button'><PlayArrowIcon />play</button>
                     <button className='btn1'><AddIcon />Add to playlist</button>
                 </div>
             </div>

@@ -23,9 +23,9 @@ function Paragraph() {
         <div>
             <div className='content' style={{ background: `url('${imageBackUrl}${movie.backdrop_path}')`, backgroundSize: "cover" }}>
 
-                <h1 className='h1'>{movie.original_title}</h1>
-                <h1 className='h2'>{movie.release_date}</h1>
-                <p className='para'>
+                <h1 className='h12'>{movie.original_title}</h1>
+                <h1 className='h22'>{movie.release_date}</h1>
+                <p className='para11'>
                     {movie.overview}
                 </p>
                 <button className='btn'><PlayArrowIcon />play</button>

@@ -25,7 +25,7 @@ body {
     margin-left: 900px;
 }
 
-.para {
+.movie-para {
     font-size: 1.1rem;
     font-weight: 500;
     color: white;
@@ -43,14 +43,14 @@ body {
     margin-left: 30px;
 }
 
-.btn {
+.play-button{
     font-size: 26px;
     border: none;
     height: 35px;
 
 }
 
-.btn1 {
+.add-button{
     margin-left: 10px;
     height: 34px;
     margin-left: 0px;
